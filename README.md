@@ -7,6 +7,9 @@ Kitchen Chronicles is a simple recipe sharing platform. It is basically a websit
 
 The goal was to create something useful and easy to use, where users can keep all their recipes in one place.
 
+**Layout**
+![Layout](layout.png)
+
 **Features**
 - Add new recipes with name of the dish which is title, ingredients, and steps to cook the dish  
 - Upload and preview recipe images  
