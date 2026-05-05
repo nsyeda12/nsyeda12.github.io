@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kitchen Chronicles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Kitchen Chronicles</h1>
+  <p>Create, Discover and share delicious recipes</p>
+</header>
+
+<section class="welcome">
+  <h2>Welcome to Kitchen Chronicles</h2>
+  <p>One stop for all. Save your favorite meals, explore new dishes, and organize recipes easily. Start by adding your first recipe!</p>
+</section>
+
+<div class="container">
+
+  <div class="form-section">
+    <h2 id="formHeading">Add New Recipe</h2>
+
+    <p id="message"></p>
+
+    <input type="text" id="title" placeholder="Recipe Name">
+    <textarea id="ingredients" placeholder="Ingredients (comma separated)"></textarea>
+    <textarea id="steps" placeholder="Cooking Steps"></textarea>
+
+    <label class="file-btn">
+      Choose Image
+      <input type="file" id="imageFile" accept="image/*">
+    </label>
+    <img id="preview" class="preview">
+
+    <select id="category">
+      <option value="">Select Category</option>
+      <option>Breakfast</option>
+      <option>Lunch</option>
+      <option>Dinner</option>
+      <option>Dessert</option>
+    </select>
+
+    <button id="submitBtn" onclick="handleSubmit()">Add Recipe</button>
+    <button id="cancelBtn" onclick="cancelEdit()" style="display:none;background:#aaa;margin-top:8px;">Cancel</button>
+  </div>
+
+  <div class="display-section">
+    <h2>Recipes</h2>
+
+    <div class="top-bar">
+      <input type="text" id="search" placeholder="Search recipes...">
+      <select id="filter">
+        <option value="All">All Categories</option>
+        <option>Breakfast</option>
+        <option>Lunch</option>
+        <option>Dinner</option>
+        <option>Dessert</option>
+      </select>
+    </div>
+
+    <div id="recipeList" class="grid"></div>
+  </div>
+
+</div>
+
+<footer>
+  <p>2026 Kitchen Chronicles | Built by Nabeela Syeda</p>
+</footer>
+
+<script src="script.js?v=6"></script>
+
+</body>
+</html>
