@@ -3,6 +3,7 @@
 **Kitchen Chronicles**
 
 **About This Project**
+
 Kitchen Chronicles is a simple recipe sharing platform. It is basically a website to post and browse recipes where you can add, view, edit, and delete recipes. I made this project to practice HTML, CSS, and JavaScript.
 
 The goal was to create something useful and easy to use, where users can keep all their recipes in one place.
@@ -37,4 +38,5 @@ The goal was to create something useful and easy to use, where users can keep al
 - More categories and features  
 
 **Built by**
+
 Nabeela Syeda  
